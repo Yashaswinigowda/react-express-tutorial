@@ -22,7 +22,6 @@ export default class EditComponent extends React.Component {
                 console.log(error);
             })
         }
-
     onChangeHostName(e) {
         this.setState({
             name: e.target.value
